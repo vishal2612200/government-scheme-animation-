@@ -1,0 +1,23 @@
+/*
+#vishal:hover{
+    transform:scale(1.1);
+}
+*/
+#background{
+    animation-name:back;
+    animation-duration:4s;
+    animation-iteration-count:infinite;
+    background-color:#572381;
+    
+}
+    @keyframes back{
+        0%{
+            color:#544acb;
+        }
+        50%{
+            color:#ffab34;
+        }
+        100%{
+            color:#235bcd;
+        }
+    }
